@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="info">30dp</dimen>
+    <dimen name="testo">18dp</dimen>
+    <dimen name="update">25dp</dimen>
+</resources>

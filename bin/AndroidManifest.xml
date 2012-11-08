@@ -1,0 +1,42 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ambro.app"
+    android:versionCode="1"
+    android:versionName="2.0" >
+    <uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:label="@string/title_activity_main"
+            android:name=".Ambro_app" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+                <activity 
+            android:name=".Info"
+            android:label="@string/menu_settings"
+            android:theme="@style/AppTheme">
+		</activity>
+        <activity 
+            android:name=".Update"
+            android:label="@string/update"
+            android:theme="@style/AppTheme">
+		</activity>
+		<activity 
+            android:name=".XmlParser"
+            android:label="@string/update"
+            android:theme="@style/AppTheme">
+		</activity>
+    </application>
+
+</manifest>

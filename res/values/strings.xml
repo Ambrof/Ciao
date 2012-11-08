@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ambro\'s App</string>
+    <string name="menu_settings">Info</string>
+    <string name="title_activity_main">Ambro App</string>
+    <string name="info">Ambro app 2.0</string>
+    <string name="home">Return home</string>
+    <string name="dev">Developed by: Francesco Ambrosini</string>
+    <string name="update">Update</string>
+    <string name="version">2.0</string>
+    <string name="button2">Check Updates</string>
+    <string name="newversion">There\'s a new version of the app</string>
+    <string name="nonewversion">You have the latest version</string>
+    <string name="connection_error">Connection error</string>
+    <string name="xml_error">XML error</string>
+    <string name="startstring">Hi!</string>
+    <string-array name="frasi">
+        <item>@string/startstring</item>
+        <item>My name is Francesco</item>
+        <item>How are you?</item>
+    </string-array>
+</resources>

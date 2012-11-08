@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Ambro\'s App</string>
+    <string name="menu_settings">Info</string>
+    <string name="title_activity_main">Ambro App</string>
+    <string name="title_nextactivity_main">NextActivity</string>
+	<string name="info">Ambro app 1.0</string>
+    <string name="home">Ritorna all\'app</string>
+    <string name="dev">Sviluppato da: Francesco Ambrosini</string>
+    <string name="update">Aggiornamento</string>
+    <string name="version">2.0</string>
+    <string name="button2">Controlla Aggiornamenti</string>
+    <string name="newversion">C\'è una nuova versione disponibile</string>
+    <string name="nonewversion">Hai la versione disponibile più aggiornata</string>
+    <string name="connection_error">Errore Connessione</string>
+    <string name="xml_error">Errore XML</string>
+    <string name="startstring">Ciao!</string>
+    <string-array name="frasi">
+        <item>@string/startstring</item>
+        <item>Mi chiamo Francesco</item>
+        <item>Come stai?</item>
+    </string-array>
+</resources>
